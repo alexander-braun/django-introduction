@@ -23,4 +23,3 @@ urlpatterns = [
     path('playground/', include('playground.urls'))
 ]
  # -> request to playground/hello
- # -> django knows that all requests to playground/

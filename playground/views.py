@@ -9,4 +9,4 @@ def say_hello(request):
   # transform data
   # send email 
   # ...
-  return HttpResponse('Hello World')
+  return render(request, 'hello.html', { 'name': 'Alex' })
